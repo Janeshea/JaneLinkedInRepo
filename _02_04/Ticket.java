@@ -12,6 +12,20 @@ public class Ticket {
 
   // Add three methods to set the value of each field, called setDestination,
   // setPrice and setIsReturn.
+  public String setDestination() {
+    destination = "Maui";
+    return destination;
+  }
+
+  public double setPrice() {
+    price = 100.00;
+    return price;
+  }
+
+  public boolean setIsReturn() {
+    isReturn = true;
+    return isReturn;
+  }
 
   // Add a separate method to get the value of each field, called getDestination,
   // getPrice and getIsReturn.
